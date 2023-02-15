@@ -9,7 +9,7 @@ def past_data():
     file_name="Testing_scrape.xlsx"
     df = pd.DataFrame() 
      
-    for i in range(1,3):
+    for i in range(1,85):
         url = f'https://mercomindia.com/category/solar/tenders-auctions/?_page={i}'
           
         tender_html_content = requests.get(url)
